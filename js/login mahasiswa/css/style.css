@@ -201,3 +201,22 @@ h2 {
   background-color: #ffff;
   border-color: #000;
 }
+
+.field-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 20px; }
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #0B5E91;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(247, 248, 249, 0);
+    box-shadow: 0 0 0 0.2rem rgba(252, 253, 252, 0);
+}

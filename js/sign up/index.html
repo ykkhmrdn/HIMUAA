@@ -18,11 +18,11 @@
 
     <title>H!MUA</title>
     <link
-    rel="icon"
-    href="/img/Rectangle 2.png"
-    type="image/gif"
-    sizes="16x16"
-  />
+      rel="icon"
+      href="/img/Rectangle 2.png"
+      type="image/gif"
+      sizes="16x16"
+    />
   </head>
   <body>
   
@@ -33,25 +33,31 @@
         <div class="row align-items-center mt-5">
           <div class="col-md-5">
             <h1 class="text-center fw-bold">H!MUA <img src="./images/Rectangle 2.png" alt=""></h1>
-            <p class="text-center">Welcome back! login with data that you entered during registration</p>
+            <p class="text-center">Hello Welcome Back! Please to registration here</p>
             <form action="" method="post">
-              <div class="social-login">
-                <a href="#" class="google btn d-flex justify-content-center align-items-center">
-                  <span class="icon-google mr-3"></span> Login with  Google
-                </a>
-                <a href="#" class="facebook btn d-flex justify-content-center align-items-center">
-                  <span class="icon-facebook mr-3"></span> Login with Facebook
-                </a>
-              </div>
-              <span class="d-block text-center my-4 text-muted">&mdash; or &mdash;</span>
               <div class="half p-4 py-md-2">
 			      		<div class="form-group">
-			      			<label class="label" for="name">Email/NIM</label>
+			      			<label class="label" for="name">Email/Username</label>
 			      			<input type="text" class="form-control" placeholder="Email/Username" required>
+                  <label class="control control--checkbox mb-0 pt-3">
+                    <input type="checkbox"/>
+                    <span class="caption">Student</span>
+                    <div class="control__indicator"></div>
+                  </label>
+                  <label class="control control--checkbox mb-0 ml-5">
+                    <input type="checkbox"/>
+                    <span class="caption">Organization</span>
+                    <div class="control__indicator"></div>
+                  </label>
 			      		</div>
 		            <div class="form-group">
 		            	<label class="label" for="password">Password</label>
-		              <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+		              <input id="password-field" type="password" class="form-control" placeholder="Password..." required>
+		              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+		            </div>
+                <div class="form-group">
+		            	<label class="label" for="password">No. ID Student</label>
+		              <input id="password-field" type="password" class="form-control" placeholder="No. ID Student" required>
 		              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 		            </div>
                 <div class="d-flex align-items-center">
@@ -60,11 +66,19 @@
                     <span class="caption">Keep me logged in</span>
                     <div class="control__indicator"></div>
                   </label>
-                  <span class="ml-auto"><a href="#" class="forgot-pass">Forgot your Password?</a></span> 
                 </div>
 		          </div>
-              <input type="submit" value="Log In" class="btn btn-block btn-primary mt-3">
-              <p class="pt-5 text-center">Don't have an account? <a href="../sign up/index.html">Register</a></p>
+              <input type="submit" value="Sign Up" class="btn btn-block btn-primary mt-3">
+              <p class="pt-3 text-center">Do you have an account? <a href="../login mahasiswa/index.html">Login</a></p>
+              <span class="d-block text-center my-4 text-muted">&mdash; or &mdash;</span>
+              <div class="social-login">
+                <a href="#" class="google btn d-flex justify-content-center align-items-center">
+                  <span class="icon-google mr-2"></span> Google
+                </a>
+                <a href="#" class="facebook btn d-flex justify-content-center align-items-center">
+                  <span class="icon-facebook mr-2"></span> Facebook
+                </a>
+              </div>
             </form>
             
           </div>

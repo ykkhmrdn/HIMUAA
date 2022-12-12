@@ -485,6 +485,7 @@ footer {
     min-height: 60vh;
     background-color: #0C2338;
     color: var(--acsentColor);
+    margin-top: 50px;
 }
 
 .footer-himua {
@@ -494,6 +495,8 @@ footer {
 
 footer p {
     padding-top: 50px;
+    color: #fff;
+    font-family: 'Montserrat';
 }
 
 .button-kontak {
@@ -527,7 +530,7 @@ footer a{
 
 .sosmed {
     padding-top: 220px;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .sosmed a{

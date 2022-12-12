@@ -21,7 +21,7 @@ p {
     background-image: url(../images/bg\ landing\ page.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 98vh;
+    height: 110vh;
 }
 
 /* Navbar */
@@ -91,7 +91,7 @@ p {
 
 /* Section Hero */
 #hero {
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 #hero .container {
@@ -118,6 +118,8 @@ p {
 }
 
 .button-hero {
+    display: inline-block;
+    position: relative;
     background-color: #fff;
     --bs-btn-color: var(--mainColor);
     --bs-btn-border-color: #fff;
@@ -152,7 +154,6 @@ p {
     border-color: #BABABA;
     border-radius: 5px;
     margin-left: 100px;
-    margin-bottom: 100px;
     display: flex;
 }
 
@@ -183,3 +184,177 @@ p {
 .informasi4 img {
     margin-left: 40px;
 }
+
+
+/* Informasi */
+#informasi {
+    min-height: 70vh;
+    margin-top: 200px;
+}
+
+#informasi .title-section {
+    color: var(--mainColor);
+    font-family: 'Alfa Slab One';
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+}
+
+#informasi p {
+    color: #000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#informasi .card {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 24px;
+
+    width: 290px;
+    height: 325px;
+
+    background: #FBFBFB;
+    border: 1px solid rgba(11, 94, 145, 0.2);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+
+}
+
+#informasi .card-body p {
+    font-size: 14px;
+}
+
+
+#informasi .card:hover {
+    transform: scale(1.1);
+    background-color: #E9F4FF;
+}
+
+/* Dokumentasi */
+
+#dokumentasi {
+    min-height: 80vh;
+}
+
+#dokumentasi h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#dokumentasi .caption {
+    width: 279px;
+    height: 94px;
+
+    font-family: 'ZCOOL XiaoWei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.333333px;
+
+    color: #000000;
+}
+
+#dokumentasi .date {
+    width: 279px;
+    height: 17px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: -0.333333px;
+
+    color: #000000;
+}
+
+/* Footer */
+footer {
+    min-height: 60vh;
+    background-color: #0C2338;
+    color: var(--acsentColor);
+}
+
+.footer-himua {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+footer p {
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.button-kontak {
+    width: 161px;
+    height: 44px;
+
+    margin-top: 30px;
+    color: #fff;
+    --bs-btn-color: #BAA971;
+    --bs-btn-border-color: #ffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #BAA971;
+    --bs-btn-hover-border-color: #BAA971;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #BAA971;
+    --bs-btn-active-border-color: #BAA971;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #BAA971;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #BAA971;
+    --bs-gradient: none;
+}
+
+.bantuan {
+    padding-top: 180px;
+    margin-left: 250px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--acsentColor);
+}
+
+.sosmed {
+    padding-top: 220px;
+    margin-left: 100px;
+}
+
+.sosmed a {
+    padding-right: 30px;
+}
+
+/* End Footer */

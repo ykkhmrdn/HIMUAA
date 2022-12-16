@@ -259,13 +259,56 @@ p {
     background-color: #E9F4FF;
 }
 
-/* Dokumentasi */
+/* Event */
 
-#dokumentasi {
+#event {
     min-height: 80vh;
+    color: #000;
 }
 
-#dokumentasi h1 {
+#event p {
+
+    color: #000;
+}
+
+/* Webinar */
+
+#event .card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#event .card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#event .tanggal {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#event .jam {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#event .keterangan {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0B5E91;
+}
+
+#event h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -273,34 +316,101 @@ p {
     line-height: 39px;
 }
 
-#dokumentasi .caption {
-    width: 279px;
-    height: 94px;
 
-    font-family: 'ZCOOL XiaoWei';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: -0.333333px;
-
-    color: #000000;
+.keterangan {
+    padding-left: 10px;
+    background-color: #D2EEFF;
+    color: var(--mainColor);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
-#dokumentasi .date {
-    width: 279px;
-    height: 17px;
+.btn-daftar {
+    padding-left: 130px;
+    padding-right: 130px;
+    color: var(--mainColor);
+    --bs-btn-color: var(--mainColor);
+    --bs-btn-border-color: var(--mainColor);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-hover-border-color: var(--mainColor);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--mainColor);
+    --bs-btn-active-border-color: var(--mainColor);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--mainColor);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--mainColor);
+    --bs-gradient: none;
+}
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
+/* Kompetisi */
+#event .card-kompetisi {
+    width: 400px;
+    padding: 15px;
+    gap: 24px;
 
-    letter-spacing: -0.333333px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
 
-    color: #000000;
+#event .kontak {
+    font-size: 16px;
+}
+
+#event .keterangan2 {
+    font-size: 16px;
+    padding-left: 30px;
+    margin-right: 160px;
+    background-color: #D2EEFF;
+    color: var(--mainColor);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#event .button-panduan {
+    width: 197px;
+    margin-right: 20px;
+    --bs-btn-color: var(--mainColor);
+    --bs-btn-border-color: var(--mainColor);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-hover-border-color: var(--mainColor);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--mainColor);
+    --bs-btn-active-border-color: var(--mainColor);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--mainColor);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--mainColor);
+    --bs-gradient: none;
+}
+
+#event .button-daftar {
+    padding-left: 30px;
+    padding-right: 30px;
+    --bs-btn-color: var(--mainColor);
+    --bs-btn-border-color: var(--mainColor);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-hover-border-color: var(--mainColor);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--mainColor);
+    --bs-btn-active-border-color: var(--mainColor);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--mainColor);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--mainColor);
+    --bs-gradient: none;
 }
 
 /* Footer */

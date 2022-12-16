@@ -47,7 +47,7 @@ p {
 
 .button-1 {
     height: 40px;
-    margin-left: 300px;
+    margin-left: 200px;
     background-color: transparent;
     color: #fff;
     --bs-btn-color: transparent;
@@ -263,6 +263,7 @@ p {
 #kepengurusan {
     min-height: 100vh;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #kepengurusan .nama {
@@ -300,16 +301,21 @@ p {
     height: 218px;
 }
 
-.sekretaris {
-    display: flex;
+.sekretaris-2 {
+    margin-right: 100px;
 }
 
-.bendahara {
-    display: flex;
-    
-    
+.sekretaris-3 {
+    margin-left: 50px;
 }
 
+.bendahara-1 {
+    margin-left: 100px;
+}
+
+.bendahara-2 {
+    margin-left: 100px;
+}
 
 
 

@@ -259,49 +259,59 @@ p {
     background-color: #E9F4FF;
 }
 
-/* Dokumentasi */
-
-#dokumentasi {
-    min-height: 70vh;
+/* Kepengurusan */
+#kepengurusan {
+    min-height: 100vh;
+    margin-top: 50px;
 }
 
-#dokumentasi h1 {
+#kepengurusan .nama {
+    color: #000;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
 
-#dokumentasi .caption {
-    width: 279px;
-    height: 94px;
-
-    font-family: 'ZCOOL XiaoWei';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: -0.333333px;
-
-    color: #000000;
-}
-
-#dokumentasi .date {
-    width: 279px;
-    height: 17px;
-
+#kepengurusan .prodi {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-    letter-spacing: -0.333333px;
+    text-align: center;
 
     color: #000000;
 }
+
+#kepengurusan .img-pengurus {
+    width: 159px;
+    height: 140px;
+}
+
+.title-section {
+    font-family: 'Montserrat';
+}
+
+#kepengurusan img {
+    width: 232px;
+    height: 218px;
+}
+
+.sekretaris {
+    display: flex;
+}
+
+.bendahara {
+    display: flex;
+    
+    
+}
+
+
+
 
 /* Footer */
 footer {

@@ -221,27 +221,18 @@ a {
     width: 100%;
     background-image: url(../img/bg\ diskusi\ himpunan.png);
     background-size: cover;
-
+    padding-bottom: 100px;
 }
 
 #diskusi h1 {
     color: var(--acsentColor);
     padding-top: 100px;
     margin-left: 100px;
-}
-
-.swiper {
-    width: 100%;
-    height: 100vh;
-    padding: 100px;
-}
-
-.swiper-slide {
-    width: 400px !important;
+    padding-bottom: 50px;
 }
 
 #diskusi .card {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(176, 199, 211);
 }
 
 #diskusi .card-text {
@@ -253,8 +244,9 @@ a {
 
 #diskusi .card-link {
     font-size: 20px;
-    text-decoration: none;
+ 
 }
+
 
 
 /* End Section Diskusi Himpunan */
